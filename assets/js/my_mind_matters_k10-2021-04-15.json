@@ -1,0 +1,1401 @@
+{
+  "version": "1.0",
+  "app_version": "7.33.0",
+  "export_date": "2021-04-15T08:02:18.9815152-05:00",
+  "api_url": "https://api.checkboxau.com/v1/blmccavanagh",
+  "created_by": "blmccavanagh@gmail.com",
+  "created_date": "2021-04-15T07:28:24.73-05:00",
+  "external_id": "965A93D6-689D-400F-977C-8861C9C81F30",
+  "name": "my-mind-matters-k10",
+  "description": null,
+  "custom_url": "my-mind-matters-k10",
+  "style_template_id": 1034,
+  "google_analytics_tracking_id": null,
+  "allow_edit_while_active": true,
+  "respondent_settings": {
+    "allow_back_button": true,
+    "allow_response_reset": false,
+    "allow_complete_response_edit": false,
+    "allow_response_resume": false,
+    "allow_response_save": false,
+    "anonymized": false,
+    "security_type": "Public",
+    "survey_password": null,
+    "make_questions_required": false
+  },
+  "response_limits": {
+    "activation_start_date": null,
+    "activation_end_date": null,
+    "total_response_limit": null,
+    "per_respondent_response_limit": null
+  },
+  "appearance": {
+    "show_survey_title": false,
+    "show_page_numbers": false,
+    "show_item_numbers": false,
+    "enable_dynamic_page_numbers": false,
+    "enable_dynamic_item_numbers": false,
+    "is_item_order_randomized": false,
+    "show_validation_error_alert": false,
+    "show_asterisks": true,
+    "show_progress_bar": false,
+    "progress_bar_orientation": null,
+    "show_compliance_link": false,
+    "allow_accessibility_options": false
+  },
+  "language_settings": {
+    "default_language": "en-US",
+    "supported_languages": [
+      "en-US"
+    ],
+    "language_source": "User",
+    "language_source_token": null,
+    "allow_response_language_change": true
+  },
+  "survey_wide_scripts": {
+    "references": "",
+    "javascript": "",
+    "css": ""
+  },
+  "pages": [
+    {
+      "items": [],
+      "id": 1155,
+      "title": "Hidden Items",
+      "position": 1,
+      "page_type": "HiddenItems",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2630,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0000
+            },
+            {
+              "id": 2631,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0000
+            },
+            {
+              "id": 2632,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0000
+            },
+            {
+              "id": 2633,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0000
+            },
+            {
+              "id": 2634,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0000
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel worn out for no real reason?&nbsp;</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1878,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1156,
+      "title": "Question 1",
+      "position": 2,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2635,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0000
+            },
+            {
+              "id": 2636,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0000
+            },
+            {
+              "id": 2637,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0000
+            },
+            {
+              "id": 2638,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0000
+            },
+            {
+              "id": 2639,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0000
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past 4 weeks, how often did you feel nervous?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1879,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1158,
+      "title": "Question 2",
+      "position": 3,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2640,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2641,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2642,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2643,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2644,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel so nervous that nothing could calm you down?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1880,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1159,
+      "title": "Question 3",
+      "position": 4,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2645,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2646,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2647,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2648,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2649,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel hopeless?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1881,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1160,
+      "title": "Question 4",
+      "position": 5,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2650,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2651,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2652,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2653,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2654,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel restless or fidgety?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1882,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1161,
+      "title": "Question 5",
+      "position": 6,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2655,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2656,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2657,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2658,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2659,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel so restless you could not sit still?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1883,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1162,
+      "title": "Question 6",
+      "position": 7,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2660,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2661,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2662,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2663,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2664,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel depressed?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1884,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1163,
+      "title": "Question 7",
+      "position": 8,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2665,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2666,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2667,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2668,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2669,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel that everything was an effort?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1885,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1164,
+      "title": "Question 8",
+      "position": 9,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2670,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2671,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2672,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2673,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2674,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel so sad that nothing could cheer you up?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1886,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1165,
+      "title": "Question 9",
+      "position": 10,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "layout": "Horizontal",
+          "columns": 5,
+          "show_number_labels": false,
+          "choices": [
+            {
+              "id": 2675,
+              "text": {
+                "en-US": "None of the time."
+              },
+              "alias": null,
+              "position": 0,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 1.0
+            },
+            {
+              "id": 2676,
+              "text": {
+                "en-US": "A little of the time."
+              },
+              "alias": null,
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 2.0
+            },
+            {
+              "id": 2677,
+              "text": {
+                "en-US": "Some of the time."
+              },
+              "alias": null,
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 3.0
+            },
+            {
+              "id": 2678,
+              "text": {
+                "en-US": "Most of the time."
+              },
+              "alias": null,
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 4.0
+            },
+            {
+              "id": 2679,
+              "text": {
+                "en-US": "All of the time."
+              },
+              "alias": null,
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "is_none_of_above": false,
+              "points": 5.0
+            }
+          ],
+          "randomize": false,
+          "allow_other": false,
+          "question_text": {
+            "en-US": "<p>In the past four weeks, how often did you feel worthless?</p>"
+          },
+          "subtext": {
+            "en-US": ""
+          },
+          "is_required": true,
+          "is_soft_required": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "id": 1887,
+          "item_type": "RadioButtons",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": null
+        }
+      ],
+      "id": 1166,
+      "title": "Question 10",
+      "position": 11,
+      "page_type": "ContentPage",
+      "include_condition": null,
+      "branching_rules": []
+    },
+    {
+      "items": [
+        {
+          "text": {
+            "en-US": "<p>are likely to be well</p>"
+          },
+          "id": 1877,
+          "item_type": "Message",
+          "position": 1,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 1308,
+                "expressions": [
+                  {
+                    "id": 1309,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "19",
+                      "operand_type": "String"
+                    },
+                    "operator": "LessThanEqual"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "text": {
+            "en-US": "<p>are likely to have a mild mental disorder</p>"
+          },
+          "id": 1923,
+          "item_type": "Message",
+          "position": 2,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 1311,
+                "expressions": [
+                  {
+                    "id": 1312,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "20",
+                      "operand_type": "String"
+                    },
+                    "operator": "GreaterThanEqual"
+                  },
+                  {
+                    "id": 1313,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "24",
+                      "operand_type": "String"
+                    },
+                    "operator": "LessThanEqual"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "text": {
+            "en-US": "<p>are likely to have a moderate mental disorder.</p>"
+          },
+          "id": 1924,
+          "item_type": "Message",
+          "position": 3,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 1315,
+                "expressions": [
+                  {
+                    "id": 1316,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "25",
+                      "operand_type": "String"
+                    },
+                    "operator": "GreaterThanEqual"
+                  },
+                  {
+                    "id": 1317,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "29",
+                      "operand_type": "String"
+                    },
+                    "operator": "LessThanEqual"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "text": {
+            "en-US": "<p>are likely to have a severe mental disorder</p>"
+          },
+          "id": 1925,
+          "item_type": "Message",
+          "position": 4,
+          "enabled": true,
+          "alias": null,
+          "html_class": null,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 1319,
+                "expressions": [
+                  {
+                    "id": 1320,
+                    "left_operand": {
+                      "response_key": "CurrentScore",
+                      "operand_type": "ResponseProperty"
+                    },
+                    "right_operand": {
+                      "value": "30",
+                      "operand_type": "String"
+                    },
+                    "operator": "GreaterThanEqual"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        }
+      ],
+      "id": 1157,
+      "title": "Completion Events",
+      "position": 12,
+      "page_type": "Completion",
+      "include_condition": null,
+      "branching_rules": []
+    }
+  ],
+  "customizable_texts": [
+    {
+      "key": "SurveyTitle",
+      "text": {
+        "en-US": "my-mind-matters-k10"
+      }
+    },
+    {
+      "key": "NextButton",
+      "text": {
+        "en-US": "Next"
+      }
+    },
+    {
+      "key": "BackButton",
+      "text": {
+        "en-US": "Back"
+      }
+    },
+    {
+      "key": "FinishButton",
+      "text": {
+        "en-US": "Finish"
+      }
+    },
+    {
+      "key": "SaveAndExitButton",
+      "text": {
+        "en-US": "Save And Exit"
+      }
+    },
+    {
+      "key": "FormResetButton",
+      "text": {
+        "en-US": "Form Reset"
+      }
+    },
+    {
+      "key": "ContinueButton",
+      "text": {
+        "en-US": "Continue >>"
+      }
+    },
+    {
+      "key": "SurveyIsNotActive",
+      "text": {
+        "en-US": "This survey has not been activated."
+      }
+    },
+    {
+      "key": "SurveyDeleted",
+      "text": {
+        "en-US": "This survey is no longer available."
+      }
+    },
+    {
+      "key": "ActivationPeriodInFuture",
+      "text": {
+        "en-US": "The activation period for this survey has not started."
+      }
+    },
+    {
+      "key": "ActivationPeriodExpired",
+      "text": {
+        "en-US": "The activation period for this survey has ended."
+      }
+    },
+    {
+      "key": "TotalResponseLimitReached",
+      "text": {
+        "en-US": "No more responses are permitted for this survey."
+      }
+    },
+    {
+      "key": "InvitationRequired",
+      "text": {
+        "en-US": "This survey is available only by invitation."
+      }
+    },
+    {
+      "key": "SelectLanguage",
+      "text": {
+        "en-US": "This survey is available in more than one language.  Please select a language from the list below then click \"Continue.\""
+      }
+    },
+    {
+      "key": "EnterSurveyPassword",
+      "text": {
+        "en-US": "Please enter the password to take the survey:"
+      }
+    },
+    {
+      "key": "IncorrectPasswordEntered",
+      "text": {
+        "en-US": "You have entered an incorrect password."
+      }
+    },
+    {
+      "key": "LoginFailed",
+      "text": {
+        "en-US": "Login failed, please try again"
+      }
+    },
+    {
+      "key": "EnterUserName",
+      "text": {
+        "en-US": "Username"
+      }
+    },
+    {
+      "key": "EnterUserPassword",
+      "text": {
+        "en-US": "Password"
+      }
+    },
+    {
+      "key": "ResetPasswordLinkText",
+      "text": {
+        "en-US": "Forgot password"
+      }
+    },
+    {
+      "key": "SelfRegistrationLinkText",
+      "text": {
+        "en-US": "Create new account"
+      }
+    },
+    {
+      "key": "LoginButton",
+      "text": {
+        "en-US": "Log In"
+      }
+    },
+    {
+      "key": "LoginText",
+      "text": {
+        "en-US": "Please enter your credentials"
+      }
+    },
+    {
+      "key": "ProgressSavedText",
+      "text": {
+        "en-US": "Survey Progress Saved"
+      }
+    },
+    {
+      "key": "ResumeInstructions",
+      "text": {
+        "en-US": "Save the following link and use to it when you wish to continue where you left off: "
+      }
+    },
+    {
+      "key": "MobileResumeInstructions",
+      "text": {
+        "en-US": "Use the following button to return to your response: "
+      }
+    },
+    {
+      "key": "SaveProgressClickHere",
+      "text": {
+        "en-US": "Click here"
+      }
+    },
+    {
+      "key": "SaveProgressToReturn",
+      "text": {
+        "en-US": " to return to your response."
+      }
+    },
+    {
+      "key": "EmailResumeLinkInstruction",
+      "text": {
+        "en-US": "You could also email yourself. Please enter your address and click the \"Send Reminder\" button."
+      }
+    },
+    {
+      "key": "EmailAddress",
+      "text": {
+        "en-US": "Email Address:"
+      }
+    },
+    {
+      "key": "SendResumeEmailButton",
+      "text": {
+        "en-US": "Send Reminder"
+      }
+    },
+    {
+      "key": "AnswerRecommended",
+      "text": {
+        "en-US": "An answer is recommended, but not required."
+      }
+    }
+  ],
+  "autocomplete_lists": [],
+  "files": []
+}
