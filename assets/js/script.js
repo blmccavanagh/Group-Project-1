@@ -100,3 +100,15 @@ json = {
 
 window.survey = new Survey.Model(json);
 $("#surveyElement").Survey({model: survey});
+
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+      $.getJSON("assets\js\my_mind_matters_k10-2021-04-15.json", function(result){
+        $.each(result, function(i, field){
+          $("div").append(field + " ");
+        });
+      });
+    });
+  });
