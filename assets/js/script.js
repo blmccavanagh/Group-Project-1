@@ -105,13 +105,13 @@
 
 
 
-window.survey = new Survey.Model(json);
-$("#surveyElement").Survey({model: survey});
+// window.survey = new Survey.Model(json);
+// $("#surveyElement").Survey({model: survey});
 
-$.getJSON('my_mind_matters_k10-2021-04-15.json', function(data) {
-    //do stuff with your data here
-    console.log("working...")
-});
+// $.getJSON('my_mind_matters_k10-2021-04-15.json', function(data) {
+//     //do stuff with your data here
+//     console.log("working...")
+// });
 
 
 
@@ -208,3 +208,12 @@ $.getJSON('my_mind_matters_k10-2021-04-15.json', function(data) {
 // $.getJSON(staticUrl, function(data) {
 //     console.log("hi");
 // });
+
+
+
+
+$("button").click(function(){
+    $.ajax({url: "https://api.checkboxau.com/v1/blmccavanagh", success: function(result){
+      $("#div1").html(result);
+    }});
+  });
