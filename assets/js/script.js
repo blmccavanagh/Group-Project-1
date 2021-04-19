@@ -105,13 +105,13 @@
 
 
 
-// window.survey = new Survey.Model(json);
-// $("#surveyElement").Survey({model: survey});
+window.survey = new Survey.Model(json);
+$("#surveyElement").Survey({model: survey});
 
-// $.getJSON('my_mind_matters_k10-2021-04-15.json', function(data) {
-//     //do stuff with your data here
-    
-// });
+$.getJSON('my_mind_matters_k10-2021-04-15.json', function(data) {
+    //do stuff with your data here
+    console.log("working...")
+});
 
 
 
@@ -186,17 +186,25 @@
 //     });
 
 
-Survey.StylesManager.applyTheme("modern");
+// Survey.StylesManager.applyTheme("modern");
 
-var surveyJSON = {"pages":[{"name":"page1","elements":[{"type":"checkbox","name":"question1","choices":["item1","item2","item3"]}]}]}
+// var surveyJSON = {"pages":[{"name":"page1","elements":[{"type":"checkbox","name":"question1","choices":["item1","item2","item3"]}]}]}
 
-function sendDataToServer(survey) {
-    //send Ajax request to your web server.
-    alert("The results are:" + JSON.stringify(survey.data));
-}
+// function sendDataToServer(survey) {
+//     //send Ajax request to your web server.
+//     alert("The results are:" + JSON.stringify(survey.data));
+// }
 
-var survey = new Survey.Model(surveyJSON);
-$("#surveyContainer").Survey({
-    model: survey,
-    onComplete: sendDataToServer
-});
+// var survey = new Survey.Model(surveyJSON);
+// $("#surveyContainer").Survey({
+//     model: survey,
+//     onComplete: sendDataToServer
+// });
+
+
+
+// var staticUrl = 'https://api.checkboxau.com/v1/blmccavanagh'
+
+// $.getJSON(staticUrl, function(data) {
+//     console.log("hi");
+// });
