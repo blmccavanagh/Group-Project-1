@@ -211,9 +211,10 @@
 
 
 
-
+// linked to the tailwind ref
 $("button").click(function(){
     $.ajax({url: "https://api.checkboxau.com/v1/blmccavanagh", success: function(result){
       $("#div1").html(result);
+      console.log("click")
     }});
   });
