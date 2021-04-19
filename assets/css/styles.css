@@ -6,7 +6,7 @@
      #ec7753, #eb8fde, #f8ff70, #ffffff6d, #7edf5e93, #53d8a9, #1546da, #845ec2,
      #ec7753, #eb8fde, #f8ff70, #ffffff6d, #ffffff6d);
     background-image:var(--gradient);
-    animation: grad-bg 15s infinite alternate-reverse;
+    animation: grad-bg 30s infinite alternate-reverse;
     position: relative;
     top: 3rem;
 }
