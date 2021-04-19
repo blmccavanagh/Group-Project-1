@@ -1,12 +1,13 @@
+
 #boxLine{
     width: 100%;
     height: 4px;
     background-size: 400%;
     --gradient: linear-gradient(45deg, #ffffff6d, #7edf5e93, #53d8a9, #1546da, #845ec2, 
      #ec7753, #eb8fde, #f8ff70, #ffffff6d, #7edf5e93, #53d8a9, #1546da, #845ec2,
-     #ec7753, #eb8fde, #f8ff70, #ffffff6d, #ffffff6d);
+     #ec7753, #eb8fde, #f8ff70, #ffffff6d, #97dfa293, #80eef0);
     background-image:var(--gradient);
-    animation: grad-bg 30s infinite alternate-reverse;
+    animation: grad-bg 30s infinite alternate;
     position: relative;
     top: 3rem;
 }
@@ -20,3 +21,7 @@
     }
     
 }
+
+/* .logo{
+    width: 60px;
+} */
