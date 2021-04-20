@@ -1,10 +1,13 @@
-Group-Project-1
+## Group-Project-1
+# My Mind Matters 
 
-https://github.com/blmccavanagh/My-Mind-Matters
+repo - https://github.com/blmccavanagh/My-Mind-Matters
 
-https://blmccavanagh.github.io/group-project-1/
+deployed link - https://blmccavanagh.github.io/My-Mind-Matters/
 
-https://blmccavanagh.github.io/My-Mind-Matters/pages/k10.html
+presentation slides - https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
 
+---
 
-https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
+## Description 
+My Mind Matters was our first group project. So we created an app around mental health and with the goal for mental health assistance. 
