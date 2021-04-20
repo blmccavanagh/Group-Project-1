@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Document</title>
-    <link rel="icon" type="image/png" href="assets\images\MMM-logo-mockup-grad.png"/>
-    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="assets\images\MMM-logo-mockup-grad.png" />
+  <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" />
 </head>
+
 <body>
 
-<header class="text-gray-600 body-font">
+  <header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <!-- icon image -->
         <img class="logo" alt="hero" src="assets\images\MMM-logo-mockup-grad.png">
         <span class="ml-3 text-xl">MyMindMatters</span>
       </a>
-      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
         <!-- nav bar links for future releases -->
         <a class="mr-5 hover:text-gray-900"></a>
         <a class="mr-5 hover:text-gray-900"></a>
@@ -34,15 +37,19 @@
     </div>
   </header>
 
-<section class="text-gray-600 body-font">
+  <section class="text-gray-600 body-font">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mental Health <br> Self-Assessment Checklist
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mental Health <br> Self-Assessment
+          Checklist
         </h1>
         <p class="mb-8 leading-relaxed">Take your mental health self-assessment:</p>
         <!-- <div id="div1"></div> -->
-          <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="pages/k10.html">here!</a></button>
-          <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+        <button
+          class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a
+            href="pages/k10.html">here!</a></button>
+        <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <img class="object-cover object-center rounded" alt="hero" src="assets\images\finn-nJupV3AOP-U-unsplash.jpg">
@@ -50,22 +57,27 @@
     </div>
   </section>
 
-  <iframe
-  width="600"
-  height="450"
-  style="border:0"
-  loading="lazy"
-  allowfullscreen
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB--9um6iLDl4i8GW9df65UqfPtjuc-DMI&q=Space+Needle,Seattle+WA">
-</iframe>
-    
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB--9um6iLDl4i8GW9df65UqfPtjuc-DMI&callback=initMap"
-  type="text/javascript"></script>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Find your local GP here:</h1>
+        <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+          src="https://www.google.com/maps/embed/v1/directions?origin=location&destination=gp%20near%20me&key=AIzaSyB--9um6iLDl4i8GW9df65UqfPtjuc-DMI"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB--9um6iLDl4i8GW9df65UqfPtjuc-DMI&callback=initMap"
+    type="text/javascript"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="assets/js/script.js"></script>
-  
+
 </body>
+
 </html>
