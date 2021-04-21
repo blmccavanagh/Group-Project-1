@@ -50,3 +50,41 @@ And we worked out just my entering location and gp near me it worked with our cu
 
 ---
 
+## site preview
+
+At this time due to time restraints the maps feature is on the home page which we are now thinking might be a better place for it anyway. 
+<br>
+
+![](assets/READ-ME-screenshots/my-mind-matters-webpage.png)
+
+<br>
+NOTE: the bar at the top is animated. we thought have an animated gradient line would be calming and with our research found most metal health sites had some form of a rainbow colour scheme on there lading pages.
+
+![](assets/READ-ME-screenshots/line-01.png)
+![](assets/READ-ME-screenshots/line-02.png)
+![](assets/READ-ME-screenshots/line-03.png)
+
+<br>
+and we also made a logo(mockup) for our page and favicon.
+
+![](assets/images/MMM-logo-mockup-grad-bigger.png)
+
+<br>
+The here! button on the home page then takes you to the k10 quiz we put together modeled after the k10 quiz medical professionals use.
+<br>
+
+![](assets/READ-ME-screenshots/k10-01.png)
+<p> the quiz is multiple choice </p>
+
+![](assets/READ-ME-screenshots/k10-02.png)
+<p> and at the end the user will receive there result which they can print out and take to there gp.</p>
+
+![](assets/READ-ME-screenshots/k10-03.png)
+
+---
+
+## future plans: 
+
+<p>We plan to add an advanced search option At present, the map we have on our homepage automatically gives the user directions to their local GP based on their current location. We plan to advance this by letting the user search for the type of health professional they are specifically looking for, be it GP, psychologist or otherwise, and to choose the location they want to search for this help.</p> 
+<p>we plan on adding forums for all users to talk about their experiences. and hopefully help one ad other maybe even form a community. </p>
+<p>We also want to create some form of a custom mental health plan that the app can develope and the user can update with updates and reminders from the app itself </p>
