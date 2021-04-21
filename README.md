@@ -25,7 +25,7 @@ But then we simplified the idea:
 
 ## Technologies used:
 
-We used a number of different technologies in this project. we used a new framework Tail <br> 
+We used a number of different technologies in this project. we used a new framework Tailwind<br> 
 https://tailwindcss.com/ 
 <br>
 it was very easy and simple to use. and it was interesting using a framework over writing all our own css. <br>
