@@ -7,9 +7,26 @@ deployed link - https://blmccavanagh.github.io/My-Mind-Matters/
 
 presentation slides - https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
 
+### USER STORY
+```
+AS A person seeking mental health assistance
+I WANT to find help online in one place
+SO THAT I can seek the help that I need
+```
+### APPLICATION CRITERIA
+```
+-when i go to the landing page 
+-then i can see a map with the nearest GP
+-when I click on here! Iam taken to a new page
+-then I am given a K10 scored to indicate my severity
+-When my score is above moderately high
+-Then I am directed to a GP
+more to come
+```
+
 ---
 
-## Description 
+## DESCRIPTION  
 My Mind Matters was our first group project. So we created an app around mental health and with the goal for mental health assistance. 
 
 We started out with a user story map: 
@@ -23,7 +40,7 @@ But then we simplified the idea:
 ---
 <br>
 
-## Technologies used:
+## TECHNOLOGIES USED:
 
 We used a number of different technologies in this project. we used a new framework Tailwind<br> 
 https://tailwindcss.com/ 
@@ -50,7 +67,7 @@ And we worked out just my entering location and gp near me it worked with our cu
 
 ---
 
-## site preview
+## SITE PREVIEW 
 
 At this time due to time restraints the maps feature is on the home page which we are now thinking might be a better place for it anyway. 
 <br>
@@ -83,7 +100,7 @@ The here! button on the home page then takes you to the k10 quiz we put together
 
 ---
 
-## future plans: 
+## FUTURE PLANS: 
 
 <p>We plan to add an advanced search option At present, the map we have on our homepage automatically gives the user directions to their local GP based on their current location. We plan to advance this by letting the user search for the type of health professional they are specifically looking for, be it GP, psychologist or otherwise, and to choose the location they want to search for this help.</p> 
 <p>we plan on adding forums for all users to talk about their experiences. and hopefully help one ad other maybe even form a community. </p>
