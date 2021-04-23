@@ -1,107 +1,104 @@
-## Group-Project-1
-# My Mind Matters 
+*UWA Coding Bootcamp : Group Project 1*
 
-repo - https://github.com/blmccavanagh/My-Mind-Matters
+# My Mind Matters
 
-deployed link - https://blmccavanagh.github.io/My-Mind-Matters/
+### This Github repository contains a website built to provide search links to professional help, highlighting the resources that are available in an easy to use and consumable format, and information on how and why to seek help for mental health.
+<br>
 
-presentation slides - https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
+## Motivation and Research
 
-### USER STORY
-```
-AS A person seeking mental health assistance
-I WANT to find help online in one place
-SO THAT I can seek the help that I need
-```
-### APPLICATION CRITERIA
-```
--when i go to the landing page 
--then i can see a map with the nearest GP
--when I click on here! Iam taken to a new page
--then I am given a K10 scored to indicate my severity
--When my score is above moderately high
--Then I am directed to a GP
-more to come
-```
+The motivation behind the development of My Mind Matters was to provide a comprehensive website that offered information and advice regarding mental health. This website is designed to make this process more manageable, by providing a platform that involves a quick and easy to complete questionnaire that then best matches a users mental health screening results to valuable resources and qualified professionals in their area.
+
+In developing the concept behind My Mind Matters, we researched the current platforms and methods that many Australians are forced to undertake when trying to identify resources to assist them with addressing their mental health concerns, finding the process needlessly complex, with frequently conflicting information and overwhelming the user when they may already be distressed or impacted with mental health issues. From this we created our user story map (see below).
+
+## User Story Map and concept
+
+![user story map](./assets/README/mmm-user-story-map.png)
+
+### **(I) Improving my mental health**
+
+My Mind Matters is designed to reduce the time it takes a person to research into and get help or advice about mental health, and provide an easy-to-navigate user experience that links information associated with mental health to individualised recommendations relating to the type of help they are able to seek, and professional contacts in the field of health and mental health.
+
+### **(I.10) Evaluate my mental health and (I.20) Seek Assistance**
+
+Utilising the industry standard K10 questionnaire that gives the user a result relating to their current state of general distress and recommended next steps, there is a search form that allows the user to select what type of service they are searching for (GP, psychologist, psychiatrist etc.) within their area by entering their postcode. There are also links to recommended reading and video links, categorised by related mental health issues and illnesses.
+
+##  Prototyping and initial development
+### Web development technologies 
+In developing this website we used a combination of HTML, CSS and a CSS framework, JavaScript, jQuery and web APIs. Technologies include:
+
+* CSS Framework:
+    * Tailwind https://tailwindcss.com
+* API's
+    * Checkbox Survey API: https://www.checkbox.com/
+    * The Maps Embed API by Google https://developers.google.com/maps/documentation/embed/get-started
+* JavaScript
+* JQuery
+* K10 Questionaire
+    * https://www.hcp.med.harvard.edu/ncs/k6_scales.php
+
+### Graphic design and branding
+Initital graphic design work was undertaken on branding, including a design draft of the website logo to be used as the favicon. Suitable complimentary keyframes were utilised in creating an animated gradient with the aim of providing a calming experience for a user visiting the website. 
+
+## Future Development opportunities
+
+We aim to continue to develop the functionality and features of My Mind Matters and have identified the following focus areas for future development or improvement:
+* An enhanced design, refining and improving layout, and offering advanced search options and accuracy of geolocation for maps. 
+* Links to resources and information across a diverse range of mental health related topics. This will include comprehensive, credible information about treatment, prevention, management and recovery for an extensive range of differing mental disorders; including links to support and emergency / crisis helplines.
+* Community engagement opportunities, including forum/message boards, allowing users to share their experiences and provide support for each other.
+* Enhancements to the location services and search facilities available. Users will be able to specifically search for health professionals across a range of disciplines, be it GP, psychologist or otherwise, and to choose the location they want to search for this help. This search can be further narrowed by searching for areas of expertise / specialties; such as pediatrics, trauma, relationship counselling etc.
+* An evolution of the K10 Questionnaire mental health assessment services with the aim of providing a customised, flexible and adaptive mental health plan, driving user enegagement through the use of notifications and encouraging user interaction.
+
+**Thank you for visiting.**
+
+### Repository Link:
+
+* https://github.com/blmccavanagh/My-Mind-Matters
+
+### Deployed Application Link:
+
+* https://blmccavanagh.github.io/My-Mind-Matters/
+
+### My Mind Matters - Press Release:
+
+* <a href="./assets/README/mmm-press-release-r1.pdf" download="My Mind Matters - Press Release: Release One">My Mind Matters - Press Release: Release One</a>
+
+### Presentation Slides:
+
+* https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
+
+### Application Screenshots:
 
 ---
 
-## DESCRIPTION  
-My Mind Matters was our first group project. So we created an app around mental health and with the goal for mental health assistance. 
+<div align="center">
 
-We started out with a user story map: 
+*Desktop Browser View* 
 
-![](assets/READ-ME-screenshots/user-story-map-01.png)
+</div>
 
-But then we simplified the idea:
-
-![](assets/READ-ME-screenshots/user-story-map-02.png)
-
----
-<br>
-
-## TECHNOLOGIES USED:
-
-We used a number of different technologies in this project. we used a new framework Tailwind<br> 
-https://tailwindcss.com/ 
-<br>
-it was very easy and simple to use. and it was interesting using a framework over writing all our own css. <br>
-We also used a couple of different apis. One being checkbox survey api 
-<br> 
-https://www.checkbox.com/ 
-<br> 
-Now checkbox's interface was great and simple to use too. But after completing the questionnaire it gave us a JSON file to embed. it took us many days of trial and error to work out how to embed this file. there were a lot of resources but we struggled to get any methods we found to work. We've learn how difficult it can be using a new file format were not use to but, We were rather stubborn and got it to work in the end. 
-<br> 
-we also used the Google Maps Embed API 
-<br>
-https://developers.google.com/maps/documentation/embed/get-started 
-<br>
-This api was very easy to use it even had a map generator page: https://developers.google.com/maps/documentation/embed/map-generator#testing_your_iframe 
-
-![](assets/READ-ME-screenshots/maps-preveiw.png) 
-
-<br>
-
-And we worked out just my entering location and gp near me it worked with our current location it seemd abit buggy sometimes it would show my location sometimes it would show close to my location so we want to research this abit more and make it more accurate.
-<br>
+![My Mind Matters website demo](./assets/README/mmm-webpage-screen-capture.jpg) 
 
 ---
 
-## SITE PREVIEW 
+<div align="center">
 
-At this time due to time restraints the maps feature is on the home page which we are now thinking might be a better place for it anyway. 
-<br>
+*Mobile Browser View*
 
-![](assets/READ-ME-screenshots/my-mind-matters-webpage.png)
+</div>
 
-<br>
-NOTE: the bar at the top is animated. we thought have an animated gradient line would be calming and with our research found most metal health sites had some form of a rainbow colour scheme on there lading pages.
-
-![](assets/READ-ME-screenshots/line-01.png)
-![](assets/READ-ME-screenshots/line-02.png)
-![](assets/READ-ME-screenshots/line-03.png)
-
-<br>
-and we also made a logo(mockup) for our page and favicon.
-
-![](assets/images/MMM-logo-mockup-grad-bigger.png)
-
-<br>
-The here! button on the home page then takes you to the k10 quiz we put together modeled after the k10 quiz medical professionals use.
-<br>
-
-![](assets/READ-ME-screenshots/k10-01.png)
-<p> the quiz is multiple choice </p>
-
-![](assets/READ-ME-screenshots/k10-02.png)
-<p> and at the end the user will receive there result which they can print out and take to there gp.</p>
-
-![](assets/READ-ME-screenshots/k10-03.png)
+![My Mind Matters website demo mobile view](./assets/README/mmm-mobile-device-view-screen-capture.png) 
 
 ---
 
-## FUTURE PLANS: 
+<div align="center">
 
-<p>We plan to add an advanced search option At present, the map we have on our homepage automatically gives the user directions to their local GP based on their current location. We plan to advance this by letting the user search for the type of health professional they are specifically looking for, be it GP, psychologist or otherwise, and to choose the location they want to search for this help.</p> 
-<p>we plan on adding forums for all users to talk about their experiences. and hopefully help one ad other maybe even form a community. </p>
-<p>We also want to create some form of a custom mental health plan that the app can develope and the user can update with updates and reminders from the app itself </p>
+*Self-Assessment K10 questionnaire Demo*
+
+</div>
+
+![self-assessment link demo](./assets/README/mmm-click-here.gif)
+![self-assessment questionnaire demo](./assets/README/mmm-k10.gif)
+![self-assessment finish page demo](./assets/README/mmm-k10-finish.gif)
+
+---
