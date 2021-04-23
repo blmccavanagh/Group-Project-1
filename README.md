@@ -50,22 +50,22 @@ We aim to continue to develop the functionality and features of My Mind Matters 
 * An evolution of the K10 Questionnaire mental health assessment services with the aim of providing a customised, flexible and adaptive mental health plan, driving user enegagement through the use of notifications and encouraging user interaction.
 
 **Thank you for visiting.**
-### Presentation Slides:
-
-* https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
-
 
 ### Repository Link:
 
 * https://github.com/blmccavanagh/My-Mind-Matters
 
+### Deployed Application Link:
+
+* https://blmccavanagh.github.io/My-Mind-Matters/
+
 ### My Mind Matters - Press Release:
 
 * <a href="./assets/README/mmm-press-release-r1.pdf" download="My Mind Matters - Press Release: Release One">My Mind Matters - Press Release: Release One</a>
 
-### Deployed Application Link:
+### Presentation Slides:
 
-* https://blmccavanagh.github.io/My-Mind-Matters/
+* https://docs.google.com/presentation/d/1WmzmaA0rD3xuZbfTvsrfgXRb5FBdEVHusWMyBWq5yJM/edit#slide=id.g320332ed93_1_0
 
 ### Application Screenshots:
 
