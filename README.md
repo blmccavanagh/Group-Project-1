@@ -61,7 +61,7 @@ We aim to continue to develop the functionality and features of My Mind Matters 
 
 ### My Mind Matters - Press Release:
 
-* https://blmccavanagh.github.io/My-Mind-Matters/assets/README/mmm-press-release-r1.pdf
+* <a href="./assets/README/mmm-press-release-r1.pdf" download="My Mind Matters - Press Release: Release One">My Mind Matters - Press Release: Release One</a>
 
 ### Deployed Application Link:
 
